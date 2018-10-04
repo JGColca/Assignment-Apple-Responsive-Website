@@ -1,0 +1,42 @@
+.menu {
+    background-color: #323232;
+    color: #FFFFFF;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+.menu li {
+    margin: 10px;
+  }
+
+.container {
+    display:flex;
+    flex-direction: column;
+    background-color: #000000;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+      .menu {
+        flex-direction: column;
+        font-size: 18px;
+        justify-content: space-around;
+      }
+    
+      .apple-image {
+        content: url("hero_vertical_startframe_small_2x.jpg");
+      }
+    }
+
+@media (min-width: 481px) {
+
+.apple-image {
+    content: url("iPhone-desktop.png");
+    
+    
+   
+    
+  }
+}
